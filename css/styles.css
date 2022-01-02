@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #333;
+    margin: 1em;
+}
+img{
+    max-width: 100%;
+    /*object-fit: cover;*/
+    margin: 0.7em 0.7em;
+    display: block;
+    outline: 8px solid rgba(3, 3, 3, 0.89);
+    outline-offset: -5px;
+}
+.gallery{
+    /*flexbox*/
+    columns: 5 320px;
+    /*align-items: start;*/
+    
+}
